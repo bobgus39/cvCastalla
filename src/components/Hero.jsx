@@ -36,7 +36,7 @@ export default function Hero() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+      <div className="relative z-[1] max-w-5xl mx-auto px-6 text-center">
 
         {/* Badge */}
         <div className={`transition-all duration-600 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
