@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --color-green-forest: #2D5016;
+  --color-green-sage: #6B8F4E;
+  --color-green-mint: #4CAF7D;
+  --color-cream: #FAF7F2;
+  --color-warm-earth: #8B6F47;
+  --color-white-natural: #FFFFFF;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FAF7F2;
+  color: #2D3748;
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+}
+
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+
+.font-body {
+  font-family: 'Nunito', sans-serif;
+}
